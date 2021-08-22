@@ -1,4 +1,7 @@
 #discord  {
-float: right;    
- margin: 0 0 0 15px;
+	position: absolute;
+	top: 10vh;
+	left: 50vh;
+	width: 300px;
+	height: 150px;
 }

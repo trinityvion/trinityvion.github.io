@@ -22,10 +22,20 @@ h1{text-align:center;font-family:Arial, sans-serif;color:#ffffff}
 
 <script>
 function copyMC() {
-  var copyText = document.getElementById("mclink");
-  copyText.select();
-  document.execCommand("copy");
-  alert("TPNGcraft link copied!");
+
+    var copyText = "mc.tpng.team";
+    var el = document.createElement('textarea');
+    el.value = copyText;
+    el.setAttribute('readonly', '');
+    el.style = {
+        position: 'absolute',
+        left: '-9999px'
+    };
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+	alert("TPNGcraft link copied!");
 }
 </script>
 </body>

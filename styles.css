@@ -1,7 +1,15 @@
 #minecraft {
 	position: absolute;
 	top: 10vh;
-	left: 20vh;
+	left: 17vh;
+	width: 300px;
+	height: 150px;
+}
+
+#tf2 {
+	position: absolute;
+	top: 35vh;
+	left: 17vh;
 	width: 300px;
 	height: 150px;
 }

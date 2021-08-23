@@ -1,6 +1,6 @@
 #minecraft {
 	position: absolute;
-	top: 10vh;
+	top: 55vh;
 	left: 17vh;
 	width: 300px;
 	height: 150px;
@@ -8,7 +8,7 @@
 
 #tf2 {
 	position: absolute;
-	top: 35vh;
+	top: 80vh;
 	left: 17vh;
 	width: 300px;
 	height: 150px;
@@ -16,7 +16,7 @@
 
 #discord  {
 	position: absolute;
-	top: 10vh;
+	top: 55vh;
 	left: 150vh;
 	width: 300px;
 	height: 150px;
@@ -24,8 +24,30 @@
 
 #steam  {
 	position: absolute;
-	top: 35vh;
+	top: 80vh;
 	left: 150vh;
 	width: 300px;
 	height: 150px;
+}
+
+#jason {
+	position: absolute;
+	top: 10vh;
+	left: 140vh;
+	width: 500px;
+	height: 390px;
+	transform: rotateY(180deg)
+}
+
+body {
+	background-image: url("https://i.imgur.com/5uTKF8s.png");
+	background-color: #ffffff;
+	background-attachment: fixed;
+	background-position: right 0px top -25px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	color: #ffffff;
 }

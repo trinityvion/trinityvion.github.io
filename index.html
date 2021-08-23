@@ -10,14 +10,23 @@
 <style>
 body {background-color:#ffffff;background-image:url(https://i.imgur.com/5uTKF8s.png);background-repeat:no-repeat;background-position:center center;background-attachment:fixed;}
 h1{text-align:center;font-family:Arial, sans-serif;color:#ffffff}
-p {text-align:left;font-family:Arial, sans-serif;font-size:22px;font-style:normal;font-weight:bold;line-height:200px;color:#ffffff}
 </style>
 </head>
 <body>
 <h1>Welcome to TPNG!!!!</h1>
-<p>Minecraft server: mc.tpng.team</p>
-<p>TF2 server (coming soon!): tf2.tpng.team</p>
 <a href="https://discord.tpng.team"> <img alt="Discord" src="https://i.imgur.com/heZO4RI.png" id="discord"></a>
 <a href="https://steam.tpng.team"> <img alt="Steam" src="https://i.imgur.com/P5fMVmC.png" id="steam"></a>
+<img src = "https://i.imgur.com/8x9t255.png" img alt="Minecraft" id="minecraft" onclick="copyMC()"></img>
+
+<input type = "text" value="mc.tpng.team" id="mclink" hidden>
+
+<script>
+function copyMC() {
+  var copyText = document.getElementById("mclink");
+  copyText.select();
+  document.execCommand("copy");
+  alert("TPNGcraft link copied!");
+}
+</script>
 </body>
 </html>

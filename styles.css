@@ -1,7 +1,15 @@
 #discord  {
 	position: absolute;
-	top: 2vh;
-	left: 50vh;
+	top: 10vh;
+	left: 150vh;
+	width: 300px;
+	height: 150px;
+}
+
+#steam  {
+	position: absolute;
+	top: 40vh;
+	left: 150vh;
 	width: 300px;
 	height: 150px;
 }

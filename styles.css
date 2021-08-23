@@ -1,41 +1,41 @@
 #minecraft {
 	position: absolute;
-	top: 55vh;
-	left: 17vh;
-	width: 300px;
-	height: 150px;
+	top: 56%;
+	left: 9%;
+	width: auto;
+	height: auto;
 }
 
 #tf2 {
 	position: absolute;
-	top: 80vh;
-	left: 17vh;
-	width: 300px;
-	height: 150px;
+	top: 80%;
+	left: 9%;
+	width: auto;
+	height: auto;
 }
 
 #discord  {
 	position: absolute;
-	top: 55vh;
-	left: 150vh;
-	width: 300px;
-	height: 150px;
+	top: 56%;
+	right: 9%;
+	width: auto;
+	height: auto;
 }
 
 #steam  {
 	position: absolute;
-	top: 80vh;
-	left: 150vh;
-	width: 300px;
-	height: 150px;
+	top: 80%;
+	right: 9%;
+	width: auto;
+	height: auto;
 }
 
 #jason {
 	position: absolute;
-	top: 10vh;
-	left: 140vh;
-	width: 500px;
-	height: 390px;
+	top: 10%;
+	right: 3.5%;
+	width: 26%;
+	height: 26.1%px;
 	transform: rotateY(180deg)
 }
 

@@ -24,23 +24,6 @@
 <img src="minecraft.png" img alt="Minecraft" id="minecraft" onclick="copyMC()"></img>
 <a href="https://tf2.tpng.team"> <img src="tf2.png" img alt="TF2" id="tf2"></img> </a>
 <a href="https://www.youtube.com/watch?v=u-x9LbOtRHc"> <img src="swole_nigga.png" img alt="jason" id="jason"></img></a>
-
-<script>
-function copyMC() {
-    var copyText = "mc.tpng.team";
-    var el = document.createElement('textarea');
-    el.value = copyText;
-    el.setAttribute('readonly', '');
-    el.style = {
-        position: 'absolute',
-        left: '-9999px'
-    };
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-	alert("TPNGcraft link copied!");
-}
-</script>
+<script src="copy.js"></script>
 </body>
 </html>
